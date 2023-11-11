@@ -1,0 +1,14 @@
+<div id="<%= dom_id product %>">
+  <p>
+    <strong>Name:</strong>
+    <%= product.name %>
+  </p>
+
+  <p>
+    <strong>Barcode:</strong>
+    <%= product.barcode %>
+  </p>
+
+  <img data-controller="barcode" data-code="<%= product.barcode %>"/>
+
+</div>

@@ -1,0 +1,8 @@
+{
+  "name": "rails7_jsbarcode_stimulus",
+  "version": "1.0.0",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "jsbarcode": "^3.11.5"
+  }
+}
